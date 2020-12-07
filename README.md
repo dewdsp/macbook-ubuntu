@@ -84,15 +84,14 @@ The important bit here is the terminal (tty) the VM is listening on: /dev/ttys00
 ```bash
 screen /dev/ttys004
 ```
+Connecting to the tty will start the VM’s boot process and you should see the familiar Linux boot sequence before arriving at the login screen:
+
+The default user for the image I’ve linked to above is ubuntu, with no password.
 
 ## Set Datetime
 ```bash
 sudo date --set "15 DECEMBER 2020 11:40 AM"
 ```
-Connecting to the tty will start the VM’s boot process and you should see the familiar Linux boot sequence before arriving at the login screen:
-
-
-The default user for the image I’ve linked to above is ubuntu, with no password.
 
 ## Installing Docker
 Now that we’ve logged in, we can install Docker following the usual instructions. In a nutshell:
